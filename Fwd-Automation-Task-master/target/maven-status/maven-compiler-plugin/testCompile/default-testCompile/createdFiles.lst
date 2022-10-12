@@ -1,0 +1,16 @@
+stepDefinition\D08_WishlistStepDef.class
+stepDefinition\D07_followUsStepDef.class
+testRunner\runner.class
+pages\P04_wishList.class
+stepDefinition\D05_hoverCategoriesStepDef.class
+stepDefinition\D09_ShoppingCartStepDef.class
+pages\P01_register.class
+stepDefinition\Hooks.class
+pages\P02_login.class
+pages\P03_homePage.class
+stepDefinition\D06_homeSlidersStepDef.class
+stepDefinition\D01_registerStepDef.class
+stepDefinition\D04_searchStepDef.class
+pages\P05_shoppingCart.class
+stepDefinition\D02_loginStepDef.class
+stepDefinition\D03_currenciesStepDef.class

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.runner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 348.796 s <<< FAILURE! - in testRunner.runner
+testRunner.runner.runScenario["user opens rss link", "User can Follow the website pages on social media"](10)  Time elapsed: 13.359 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at stepDefinition.D07_followUsStepDef.Rss(D07_followUsStepDef.java:33)
+	at ✽.User click on rss link(file:///D:/Automation/E-commerceAppAutomationTesting/src/main/resources/features/F07_followUs.feature:13)
+

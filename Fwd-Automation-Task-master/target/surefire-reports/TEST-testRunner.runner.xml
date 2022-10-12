@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunner.runner" time="348.796" tests="10" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="D:\Automation\E-commerceAppAutomationTesting/src/main/resources/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1256"/>
+    <property name="java.class.path" value="D:\Automation\E-commerceAppAutomationTesting\target\test-classes;D:\Automation\E-commerceAppAutomationTesting\target\classes;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.4\selenium-java-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.4\selenium-api-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.4\selenium-chrome-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\amany.atef\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\amany.atef\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\amany.atef\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\amany.atef\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\amany.atef\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\amany.atef\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\amany.atef\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\amany.atef\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\amany.atef\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.4\selenium-chromium-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.4\selenium-json-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v100\4.1.4\selenium-devtools-v100-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.1.4\selenium-devtools-v101-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.4\selenium-devtools-v85-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.4\selenium-devtools-v99-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.4\selenium-edge-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.4\selenium-firefox-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.4\selenium-ie-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.4\selenium-opera-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.4\selenium-remote-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-buffer\4.1.76.Final\netty-buffer-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-codec-http\4.1.76.Final\netty-codec-http-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-codec\4.1.76.Final\netty-codec-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-handler\4.1.76.Final\netty-handler-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-common\4.1.76.Final\netty-common-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.76.Final\netty-transport-classes-epoll-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.76.Final\netty-transport-classes-kqueue-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport-native-epoll\4.1.76.Final\netty-transport-native-epoll-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.76.Final\netty-transport-native-kqueue-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.76.Final\netty-transport-native-unix-common-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport\4.1.76.Final\netty-transport-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-resolver\4.1.76.Final\netty-resolver-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-api\1.13.0\opentelemetry-api-1.13.0.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-context\1.13.0\opentelemetry-context-1.13.0.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.13.0\opentelemetry-exporter-logging-1.13.0.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.13.0-alpha\opentelemetry-sdk-metrics-1.13.0-alpha.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.13.0-alpha\opentelemetry-sdk-logs-1.13.0-alpha.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.13.0\opentelemetry-sdk-common-1.13.0.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.13.0\opentelemetry-sdk-extension-autoconfigure-spi-1.13.0.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.13.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.13.0-alpha.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.13.0\opentelemetry-sdk-trace-1.13.0.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.13.0\opentelemetry-sdk-1.13.0.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.13.0-alpha\opentelemetry-semconv-1.13.0-alpha.jar;C:\Users\amany.atef\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\amany.atef\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\amany.atef\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\amany.atef\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\amany.atef\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\amany.atef\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\amany.atef\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\amany.atef\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\amany.atef\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.4\selenium-http-4.1.4.jar;C:\Users\amany.atef\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.4\selenium-safari-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.4\selenium-support-4.1.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-java\7.3.4\cucumber-java-7.3.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-core\7.3.4\cucumber-core-7.3.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-gherkin\7.3.4\cucumber-gherkin-7.3.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.3.4\cucumber-gherkin-messages-7.3.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-expressions\15.1.1\cucumber-expressions-15.1.1.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\datatable\7.3.4\datatable-7.3.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-plugin\7.3.4\cucumber-plugin-7.3.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\docstring\7.3.4\docstring-7.3.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\html-formatter\19.1.0\html-formatter-19.1.0.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\amany.atef\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-junit\7.3.4\cucumber-junit-7.3.4.jar;C:\Users\amany.atef\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\amany.atef\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-testng\7.3.4\cucumber-testng-7.3.4.jar;C:\Users\amany.atef\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\amany.atef\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\amany.atef\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="D:\Automation\jdk-16\bin"/>
+    <property name="sun.java.command" value="C:\Users\amany.atef\AppData\Local\Temp\surefire16414306095985567437\surefirebooter7569590144016611262.jar C:\Users\amany.atef\AppData\Local\Temp\surefire16414306095985567437 2022-05-24T22-31-00_773-jvmRun1 surefire1565591225955030080tmp surefire_011045689628270640295tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Automation\E-commerceAppAutomationTesting\target\test-classes;D:\Automation\E-commerceAppAutomationTesting\target\classes;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.4\selenium-java-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.4\selenium-api-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.4\selenium-chrome-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\amany.atef\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\amany.atef\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\amany.atef\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\amany.atef\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\amany.atef\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\amany.atef\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\amany.atef\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\amany.atef\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\amany.atef\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.4\selenium-chromium-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.4\selenium-json-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v100\4.1.4\selenium-devtools-v100-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.1.4\selenium-devtools-v101-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.4\selenium-devtools-v85-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.4\selenium-devtools-v99-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.4\selenium-edge-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.4\selenium-firefox-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.4\selenium-ie-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.4\selenium-opera-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.4\selenium-remote-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-buffer\4.1.76.Final\netty-buffer-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-codec-http\4.1.76.Final\netty-codec-http-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-codec\4.1.76.Final\netty-codec-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-handler\4.1.76.Final\netty-handler-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-common\4.1.76.Final\netty-common-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.76.Final\netty-transport-classes-epoll-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.76.Final\netty-transport-classes-kqueue-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport-native-epoll\4.1.76.Final\netty-transport-native-epoll-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.76.Final\netty-transport-native-kqueue-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.76.Final\netty-transport-native-unix-common-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport\4.1.76.Final\netty-transport-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-resolver\4.1.76.Final\netty-resolver-4.1.76.Final.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-api\1.13.0\opentelemetry-api-1.13.0.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-context\1.13.0\opentelemetry-context-1.13.0.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.13.0\opentelemetry-exporter-logging-1.13.0.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.13.0-alpha\opentelemetry-sdk-metrics-1.13.0-alpha.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.13.0-alpha\opentelemetry-sdk-logs-1.13.0-alpha.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.13.0\opentelemetry-sdk-common-1.13.0.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.13.0\opentelemetry-sdk-extension-autoconfigure-spi-1.13.0.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.13.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.13.0-alpha.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.13.0\opentelemetry-sdk-trace-1.13.0.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.13.0\opentelemetry-sdk-1.13.0.jar;C:\Users\amany.atef\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.13.0-alpha\opentelemetry-semconv-1.13.0-alpha.jar;C:\Users\amany.atef\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\amany.atef\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\amany.atef\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\amany.atef\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\amany.atef\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\amany.atef\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\amany.atef\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\amany.atef\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\amany.atef\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\amany.atef\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.4\selenium-http-4.1.4.jar;C:\Users\amany.atef\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.4\selenium-safari-driver-4.1.4.jar;C:\Users\amany.atef\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.4\selenium-support-4.1.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-java\7.3.4\cucumber-java-7.3.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-core\7.3.4\cucumber-core-7.3.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-gherkin\7.3.4\cucumber-gherkin-7.3.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.3.4\cucumber-gherkin-messages-7.3.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-expressions\15.1.1\cucumber-expressions-15.1.1.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\datatable\7.3.4\datatable-7.3.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-plugin\7.3.4\cucumber-plugin-7.3.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\docstring\7.3.4\docstring-7.3.4.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\html-formatter\19.1.0\html-formatter-19.1.0.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\amany.atef\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-junit\7.3.4\cucumber-junit-7.3.4.jar;C:\Users\amany.atef\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\amany.atef\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\amany.atef\.m2\repository\io\cucumber\cucumber-testng\7.3.4\cucumber-testng-7.3.4.jar;C:\Users\amany.atef\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\amany.atef\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\amany.atef\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\amany.atef"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-03-16"/>
+    <property name="java.home" value="D:\Automation\jdk-16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Automation\E-commerceAppAutomationTesting"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\amany.atef\AppData\Local\Temp\surefire16414306095985567437\surefirebooter7569590144016611262.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16+36-2231"/>
+    <property name="user.name" value="Amany.Atef"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\amany.atef\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AMANY~1.ATE\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.2.3"/>
+    <property name="java.version" value="16"/>
+    <property name="user.dir" value="D:\Automation\E-commerceAppAutomationTesting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Automation\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;D:\Automation\jdk-16\bin;C:\Program Files\Git\cmd;D:\Jmeter\apache-jmeter-5.4.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\plugins\maven\lib\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Users\amany.atef\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TestProject Agent;D:\Automation\jdk-16\bin;C:\Users\amany.atef\AppData\Local\GitHubDesktop\bin;D:\Jmeter\apache-jmeter-5.4.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16+36-2231"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;User register with valid data&quot;, &quot;User should be able to register to the system&quot;](1)" classname="testRunner.runner" time="23.549">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 55674
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 24, 2022 10:31:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 24, 2022 10:31:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 101
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user Login with valid data&quot;, &quot;User should be able to Login to the system&quot;](2)" classname="testRunner.runner" time="53.84">
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 57921
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 24, 2022 10:31:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 24, 2022 10:31:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 101
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user switch currencies successfully&quot;, &quot;User can switch between Currencies&quot;](3)" classname="testRunner.runner" time="19.245">
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 53256
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 24, 2022 10:32:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 24, 2022 10:32:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 101
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user Search for product successfully&quot;, &quot;User can Search for product&quot;](4)" classname="testRunner.runner" time="16.901">
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 51081
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 24, 2022 10:32:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 24, 2022 10:32:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 101
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user hover on Subcategory successfully&quot;, &quot;User can hover on Subcategory&quot;](5)" classname="testRunner.runner" time="19.823">
+    <system-out><![CDATA[7
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 64375
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 24, 2022 10:33:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 24, 2022 10:33:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 101
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user opens facebook link&quot;, &quot;User can Follow the website pages on social media&quot;](8)" classname="testRunner.runner" time="45.392">
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 59939
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 24, 2022 10:33:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 24, 2022 10:33:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 101
+Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 62211
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 24, 2022 10:33:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 24, 2022 10:33:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 101
+Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 58932
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 24, 2022 10:33:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 24, 2022 10:33:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 101
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user opens twitter link&quot;, &quot;User can Follow the website pages on social media&quot;](9)" classname="testRunner.runner" time="11.968">
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 58421
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 24, 2022 10:34:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 24, 2022 10:34:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 101
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user opens rss link&quot;, &quot;User can Follow the website pages on social media&quot;](10)" classname="testRunner.runner" time="13.359">
+    <failure message="Index 1 out of bounds for length 1" type="java.lang.IndexOutOfBoundsException"><![CDATA[java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at stepDefinition.D07_followUsStepDef.Rss(D07_followUsStepDef.java:33)
+	at ✽.User click on rss link(file:///D:/Automation/E-commerceAppAutomationTesting/src/main/resources/features/F07_followUs.feature:13)
+]]></failure>
+    <system-out><![CDATA[
+@smoke
+Scenario: User register with valid data                                                     &amp#27;[90m# src/main/resources/features/F01_Register.feature:5&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser Enter valid data and click on register button&amp#27;[0m                                   &amp#27;[90m# stepDefinition.D01_registerStepDef.UserCanRegister()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32msystem redirects to registration confirmation page and  display success notification&amp#27;[0m &amp#27;[90m# stepDefinition.D01_registerStepDef.ValidateConfirmationPage()&amp#27;[0m
+
+@smoke
+Scenario: user Login with valid data                                &amp#27;[90m# src/main/resources/features/F02_login.feature:5&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser Enter valid data in "&amp#27;[0m&amp#27;[32m&amp#27;[1mamany.atef@gamil.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123456&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# stepDefinition.D02_loginStepDef.UserCanLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32msystem redirects to Home page and system display Account tab&amp#27;[0m &amp#27;[90m# stepDefinition.D02_loginStepDef.SuccessAssertion()&amp#27;[0m
+
+@smoke
+Scenario: user switch currencies successfully                        &amp#27;[90m# src/main/resources/features/F03_currencies.feature:6&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser Enter valid data in "&amp#27;[0m&amp#27;[32m&amp#27;[1mamany.atef@gamil.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123456&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# stepDefinition.D02_loginStepDef.UserCanLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mSelect currency&amp#27;[0m                                               &amp#27;[90m# stepDefinition.D03_currenciesStepDef.UserSelectCurrency()&amp#27;[0m
+
+@smoke
+Scenario: user Search for product successfully &amp#27;[90m# src/main/resources/features/F04_Search.feature:4&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mSearch&amp#27;[0m                                  &amp#27;[90m# stepDefinition.D04_searchStepDef.UserSearchProduct()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32msystem redirects to search result page&amp#27;[0m  &amp#27;[90m# stepDefinition.D04_searchStepDef.RedirectToSearchResult()&amp#27;[0m
+
+@smoke
+Scenario: user hover on Subcategory successfully &amp#27;[90m# src/main/resources/features/F05_hoverCategories.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSelect computer category&amp#27;[0m                 &amp#27;[90m# stepDefinition.D05_hoverCategoriesStepDef.SelectCategory()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhover on sub category&amp#27;[0m                     &amp#27;[90m# stepDefinition.D05_hoverCategoriesStepDef.HoverSubCategory()&amp#27;[0m
+
+@smoke
+Scenario: user can see product1 details through the Slider &amp#27;[90m# src/main/resources/features/F06_homeSliders.feature:4&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on  Slider First picture&amp#27;[0m                      &amp#27;[90m# stepDefinition.D06_homeSlidersStepDef.Click_Slider_First_Product()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mSystem redirects to product-Nokia details page&amp#27;[0m      &amp#27;[90m# stepDefinition.D06_homeSlidersStepDef.Details_First_Product_Opened()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "https://demo.nopcommerce.com/nokia-lumia-1020". Current url: "https://demo.nopcommerce.com/" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'AMANY-ATEF', ip: '192.168.1.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\AMANY~1.ATE\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:61984}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61984/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b36abc4fa22e22108f2c30a3d623981
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at stepDefinition.D06_homeSlidersStepDef.Details_First_Product_Opened(D06_homeSlidersStepDef.java:22)
+	at âœ½.System redirects to product-Nokia details page(file:///D:/Automation/E-commerceAppAutomationTesting/src/main/resources/features/F06_homeSliders.feature:6)
+&amp#27;[0m
+
+@smoke
+Scenario: user can see product2 details through the Slider &amp#27;[90m# src/main/resources/features/F06_homeSliders.feature:8&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on sub Slider Second picture&amp#27;[0m                  &amp#27;[90m# stepDefinition.D06_homeSlidersStepDef.Click_Slider_Second_Product()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mSystem redirects to product-Iphone details page&amp#27;[0m     &amp#27;[90m# stepDefinition.D06_homeSlidersStepDef.Details_Second_Product_Opened()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "https://demo.nopcommerce.com/iphone-6". Current url: "https://demo.nopcommerce.com/" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'AMANY-ATEF', ip: '192.168.1.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\AMANY~1.ATE\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62021/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 04857cc3d5e7abe6b830ffb48374f474
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at stepDefinition.D06_homeSlidersStepDef.Details_Second_Product_Opened(D06_homeSlidersStepDef.java:33)
+	at âœ½.System redirects to product-Iphone details page(file:///D:/Automation/E-commerceAppAutomationTesting/src/main/resources/features/F06_homeSliders.feature:10)
+&amp#27;[0m
+
+@smoke
+Scenario: user opens facebook link     &amp#27;[90m# src/main/resources/features/F07_followUs.feature:4&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser click on facebook link&amp#27;[0m     &amp#27;[90m# stepDefinition.D07_followUsStepDef.FB()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32m"&amp#27;[0m&amp#27;[32m&amp#27;[1mfacebook&amp#27;[0m&amp#27;[32m" is opened in new tab&amp#27;[0m &amp#27;[90m# stepDefinition.D07_followUsStepDef.Validate_Open_Social_Tab(java.lang.String)&amp#27;[0m
+
+@smoke
+Scenario: user opens twitter link     &amp#27;[90m# src/main/resources/features/F07_followUs.feature:8&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser click on twitter link&amp#27;[0m     &amp#27;[90m# stepDefinition.D07_followUsStepDef.twitter()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32m"&amp#27;[0m&amp#27;[32m&amp#27;[1mtwitter&amp#27;[0m&amp#27;[32m" is opened in new tab&amp#27;[0m &amp#27;[90m# stepDefinition.D07_followUsStepDef.Validate_Open_Social_Tab(java.lang.String)&amp#27;[0m
+
+@smoke
+Scenario: user opens rss link     &amp#27;[90m# src/main/resources/features/F07_followUs.feature:12&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mUser click on rss link&amp#27;[0m     &amp#27;[90m# stepDefinition.D07_followUsStepDef.Rss()&amp#27;[0m
+      &amp#27;[31mjava.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at stepDefinition.D07_followUsStepDef.Rss(D07_followUsStepDef.java:33)
+	at âœ½.User click on rss link(file:///D:/Auto]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 61018
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 24, 2022 10:34:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 24, 2022 10:34:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 101
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user opens youtube link&quot;, &quot;User can Follow the website pages on social media&quot;](11)" classname="testRunner.runner" time="50.523">
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 62882
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 24, 2022 10:35:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 24, 2022 10:35:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 101
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user adds products to cart&quot;, &quot;User can add products to cart&quot;](13)" classname="testRunner.runner" time="42.907">
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 51972
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 24, 2022 10:35:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 24, 2022 10:35:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 101
+Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 59304
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 24, 2022 10:36:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 24, 2022 10:36:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 101
+]]></system-err>
+  </testcase>
+</testsuite>
